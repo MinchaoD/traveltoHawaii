@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="/styles.css" />
+</head>
+
+<body>
+    <header>
+        <div class="box">
+            <img class="island fitimage" src="/image/pano-kauai.jpg" alt="bigisland">
+            <h1 style="font-size:10vw" class="islandTitle"> Kauai<span style="font-size:4vw;"> things to do</span></h1>
+            
+        </div>
+        <nav class="navbar navbar-expand-md h5 navbar-light">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#kauaiNavbar">
+                <span class="navbar-toggler-icon" ></span>
+            </button>
+            <div class="collapse navbar-collapse" id="kauaiNavbar" >
+                <ul class="navbar-nav">
+                    <li class="nav-item active "> <a class="nav-link mr-3" href="index.html" >Home </a></li>
+                    <li class="nav-item"> <a class="nav-link mr-3" href="oahu.html">Oahu</a></li>
+                    <li class="nav-item"> <a class="nav-link mr-3" href="bigisland.html">Big Island </a></li>
+                    <li class="nav-item"> <a class="nav-link mr-3" href="maui.html">Maui</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container ">
+      
+        <div id="carouselkauai" class="carousel slide "data-wrap="true" data-interval="4000" data-ride="carousel">
+            <ol class="carousel-indicators ">
+            <li data-target="#carouselkauai" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselkauai" data-slide-to="1"></li>
+            <li data-target="#carouselkauai" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active  ">
+                    <img class="d-block w-100" src="/image/kauai-waimea.jpg" alt="First slide">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Waimea Canyon</h5>
+                        <p class="d-none d-sm-block"> Waimea Canyon, also known as the Grand Canyon of the Pacific, is a large canyon, approximately ten miles long and up to 3,000 feet deep, located on the western side of Kauaʻi in Kauai. Waimea is Hawaiian for "reddish water", a reference to the erosion of the canyon's red soil. Consumed with wild foliage and tropical cliffs, the Waimea Canyon is truly the nature lover’s paradise. </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/image/kauai-submarin.jpg" alt="Second slide">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Submarine Tour</h5>
+                        <p class="d-none d-sm-block">With Submarine tours, you explore depths of Hawaii’s ocean waters 100 feet below the surface and “swim” amidst schools of beautiful fish in the world’s most technologically advanced passenger submarine. It is highlighted by pristine coral reef gardens that are a natural safe haven for fish, plant life and organisms to thrive.  </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="image/kauai-napali.jpg" alt="Third slide">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Na Pali Coast</h5>
+                        <p class="d-none d-sm-block"> Nāpali Coast State Wilderness Park lies in the northwest of Kauai. It’s known for its towering pali, or sea cliffs, punctuated by narrow valleys, streams and cascading waterfalls. The Kalalau Trail is a steep footpath running through the park, between nearby Ke’e Beach and sandy Kalalau Beach. It cuts through 5 valleys, including the Hanakoa Valley, with its native plants and old agricultural terraces.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <a class="carousel-control-next " href="#carouselkauai" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <button class="btn btn-light btn-lg" id="carouselButton">
+                <i class="fa fa-pause"></i>
+            </button>
+        </div>
+    </div>
+ 
+    <footer>
+        <hr class="footer-line">
+        <div class="container-fluid">
+            <div class="row text-center">
+              
+                <div class="col-4">
+                    <a role="button" class="btn btn-link" href="tel:+12063838906"><i class="fa fa-phone-square fa-lg"></i> Phone ： 1-206-383-8906 </a><br />
+                </div>
+                <div class="col-4">
+                    <h5> made with <i class="fa fa-heart"></i> in Seattle</h5>
+                </div>
+                <div class="col-4 ">
+                    <a role="button" class="btn btn-link" href="mailto: chaohg@hotmail.com"><i class="fa fa-envelope-square fa-lg text-primary"></i> Email :  chaohg@hotmail.com </a>
+                </div>
+            <div>
+        </div>
+    </footer>
+  
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/index.js"></script>
+</body>
+
+</html>
+
+
+    

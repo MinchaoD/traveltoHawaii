@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="/styles.css" />
+</head>
+
+<body>
+    <header>
+        <div class="box">
+            <img class="island fitimage" src="/image/pano-oahu2.jpg" alt="oahu">
+            <h1 style="font-size:10vw" class="islandTitle"> Oahu  <span style="font-size:4vw;"> things to do</span></h1>
+            
+        </div>
+        <nav class="navbar navbar-expand-md h5 navbar-light">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#oahuNavbar">
+                <span class="navbar-toggler-icon" ></span>
+            </button>
+            <div class="collapse navbar-collapse" id="oahuNavbar" >
+                <ul class="navbar-nav">
+                    <li class="nav-item active "> <a class="nav-link mr-3" href="index.html" >Home </a></li>
+                    <li class="nav-item"> <a class="nav-link mr-3" href="bigisland.html">Big Island </a></li>
+                    <li class="nav-item"> <a class="nav-link mr-3" href="maui.html">Maui</a></li>
+                    <li class="nav-item"> <a class="nav-link mr-3" href="kauai.html">Kauai</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+    </header>
+
+    <div class="container ">
+      
+        <div id="carouselOahu" class="carousel slide "data-wrap="true" data-interval="4000" data-ride="carousel">
+            <ol class="carousel-indicators ">
+            <li data-target="#carouselOahu" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselOahu" data-slide-to="1"></li>
+            <li data-target="#carouselOahu" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active  ">
+                    <img class="d-block w-100" src="/image/oahu-honolulu.jpg" alt="First slide">
+                    <div class="carousel-caption  d-sm-block">
+                        <h5>Honolulu </h5>
+                        <p class="d-none d-sm-block">Honolulu is the largest city on Oahu, and it offers an endless list of things to do. The city also makes up 80% of the local population and incorporates the most popular tourist destination known as Waikiki. Take a moment to check out the best Honolulu Attractions that are worthy a visit, including the Iolani Palace, the Bishop Museum, and Pearl Harbor.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 " src="/image/Oahu-diamond.jpg" alt="Second slide">
+                    <div class="carousel-caption d-sm-block">
+                        <h5>Diamond Head</h5>
+                        <p class="d-none d-sm-block">Diamond Head is a volcanic cone on the Hawaiian island of Oahu and is the most popular Hawaii State Park. Hawaiians call it Lēʻahi (brow of the tuna) in reference to the formation’s ridgeline, which resembles the tuna fish’s dorsal fin. Diamond Head offers stunning views of the Pacific Ocean and Honolulu that you can hike to via a trail that takes you to the edge of the 300,000-year old crater.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="image/oahu-hanaumabay.jpg" alt="Third slide">
+                    <div class="carousel-caption d-sm-block">
+                        <h5>Hanauma Bay</h5>
+                        <p class="d-none d-sm-block"> Hanauma Bay Hawaii is one of the most popular and most visited beaches outside of Waikiki and the North Shore beaches.  But it’s not so much about the beach as it is about the marine life nature preserve, and the amazing Hanauma Bay snorkeling experience!  With over 300 different Hawaiian fish species lurking about the shallow coral reefs, it is easy to see why this Oahu Beach holds its fame!</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- <a class="carousel-control-prev" href="#carouselOahu" role="button" data-slide="prev">
+                <span><i class="fa fa-chevron-circle-left fa-2x" aria-hidden="true"></i></span>
+                <span class="sr-only">Previous</span>
+            </a> -->
+            <a class="carousel-control-next " href="#carouselOahu" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <button class="btn btn-light btn-lg" id="carouselButton">
+                <i class="fa fa-pause"></i>
+            </button>
+        </div>
+    </div>
+
+  
+    <footer>
+        <hr class="footer-line">
+        <div class="container-fluid">
+            <div class="row text-center">
+              
+                <div class="col-4">
+                    <a role="button" class="btn btn-link" href="tel:+12063838906"><i class="fa fa-phone-square fa-lg"></i> Phone ： 1-206-383-8906 </a><br />
+                </div>
+                <div class="col-4">
+                    <h5> made with <i class="fa fa-heart"></i> in Seattle</h5>
+                </div>
+                <div class="col-4 ">
+                    <a role="button" class="btn btn-link" href="mailto: chaohg@hotmail.com"><i class="fa fa-envelope-square fa-lg text-primary"></i> Email :  chaohg@hotmail.com </a>
+                </div>
+            <div>
+        </div>
+    </footer>
+  
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/index.js"></script>
+</body>
+
+</html>
