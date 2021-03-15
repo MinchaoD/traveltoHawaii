@@ -246,15 +246,28 @@ img {
 
 }
 
+.carousel-indicators {
+  bottom:-80px;
+ 
+}
 
-@media screen and (max-width: 990px){
+.carousel-indicators li {
+    background-color: rgba(70,70,70,.25) !important;
+}
+
+.carousel-indicators .active {
+  background-color: #444 !important;
+}
+
+
+@media screen and (max-width: 1200px){
   .carousel-caption{
     background-color:rgba(0,0,0,0.5);
 }
 
 }
 
-@media only screen and (min-width: 990px){
+@media only screen and (min-width: 1200px){
 .carousel .carousel-caption {
   color: white;
   text-align:center;
