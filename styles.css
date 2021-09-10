@@ -86,6 +86,9 @@ header {
   img {
       width: 250px;
   }
+  .mainText {
+    font-size:7vw
+}
 }
 /* lg */
 @media (min-width: 1200px) {
