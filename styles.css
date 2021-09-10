@@ -38,23 +38,51 @@ header {
       font-size: 3rem
     }
     .title{
-      font-size:8vw
+      font-size:8vw;
     }
+    
     .mapText{
-      offset: 1 !important
-      
+      font-size:4vw;
+
+    }
+    .row-content {
+      min-height: 7rem;
   }
+    .mainText {
+      font-size:9vw
+    }
   }
 
 
 /* sm */
-@media (min-width: 768px) {
+@media (max-width: 992px) and (min-width:600px){
   img {
       width: 200px;
   }
+  .title{
+    font-size:6vw;
+  }
+  
+  .mapText{
+    font-size:2vw;
+
+  }
+  .row-content {
+    min-height: 7rem;
+  }
+  .mainText {
+      font-size:7vw
+}
+.mapText{
+  font-size:3vw;
+
+}
 }
 /* md */
 @media (min-width: 992px) {
+  .row-content {
+    min-height: 10rem;
+  }
   img {
       width: 250px;
   }
@@ -81,7 +109,7 @@ header {
     border-color:white;
     width: 45%;
     background-color:rgba(240, 228, 228, 0.5);
-    font-size:7vw
+
   }
 
   .list-unstyled{
@@ -99,14 +127,6 @@ header {
     padding: 6.25rem 0rem 6.25rem 0rem;
     border-top: 0.2rem dotted;
     
-}
-.row-content {
-    min-height: 9.375rem;
-}
-
-.mapText{
-    font-size:1.5rem;
-
 }
 
 .mapText a:link {
