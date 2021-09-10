@@ -23,19 +23,30 @@ header {
 
    h1{
     font-family: 'Brush Script MT', cursive;
-    font-size: 4rem;
+    font-size: 4vw;
    }
 
+   img {
+    width: 9.375rem;
+    height: auto;
+  }
+  
+
+  /* xs */
    @media (max-width: 600px) {
     body h1 {
       font-size: 3rem
     }
+    .title{
+      font-size:8vw
+    }
+    .mapText{
+      offset: 1 !important
+      
   }
-  /* xs */
-img {
-  width: 9.375rem;
-  height: auto;
-}
+  }
+
+
 /* sm */
 @media (min-width: 768px) {
   img {
@@ -95,6 +106,7 @@ img {
 
 .mapText{
     font-size:1.5rem;
+
 }
 
 .mapText a:link {
