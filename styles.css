@@ -30,73 +30,7 @@ header {
     width: 9.375rem;
     height: auto;
   }
-  
-
-  /* xs */
-   @media (max-width: 600px) {
-    body h1 {
-      font-size: 3rem
-    }
-    .title{
-      font-size:8vw;
-    }
-    
-    .mapText{
-      font-size:4vw;
-
-    }
-    .row-content {
-      min-height: 7rem;
-  }
-    .mainText {
-      font-size:9vw
-    }
-  }
-
-
-/* sm */
-@media (max-width: 992px) and (min-width:600px){
-  img {
-      width: 200px;
-  }
-  .title{
-    font-size:6vw;
-  }
-  
-  .mapText{
-    font-size:2vw;
-
-  }
-  .row-content {
-    min-height: 7rem;
-  }
-  .mainText {
-      font-size:7vw
-}
-.mapText{
-  font-size:3vw;
-
-}
-}
-/* md */
-@media (min-width: 992px) {
-  .row-content {
-    min-height: 10rem;
-  }
-  img {
-      width: 250px;
-  }
-  .mainText {
-    font-size:7vw
-}
-}
-/* lg */
-@media (min-width: 1200px) {
-  img {
-      width: 300px;
-  }
-}
-
+ 
    .mainText {
   
     text-align: center;
@@ -281,8 +215,8 @@ header {
 }
 
 .carousel-control-next-icon {
-  height: 3.125rem;
-  width: 3.125rem;
+  height: 5vw;
+  width: 5vw;
   border-radius: 50%;
   border: 0.2rem solid white;
 
@@ -301,13 +235,80 @@ header {
   background-color: #444 !important;
 }
 
+ 
+
+  /* xs */
+  @media (max-width: 600px) {
+    body h1 {
+      font-size: 3rem
+    }
+    .title{
+      font-size:9vw;
+    }
+    
+    .mapText{
+      font-size:4vw;
+
+    }
+    .row-content {
+      min-height: 7rem;
+  }
+    .mainText {
+      font-size:9vw
+    }
+    .fa{
+      font-size:1rem
+    }
+    #carouselButton{
+      font-size: 1vw;
+    }
+   
+  }
+
+
+/* sm */
+@media (max-width: 992px) and (min-width:600px){
+  img {
+      width: 200px;
+  }
+  .title{
+    font-size:6vw;
+  }
+  
+  .mapText{
+    font-size:2vw;
+
+  }
+  .row-content {
+    min-height: 7rem;
+  }
+  .mainText {
+      font-size:7vw
+}
+.mapText{
+  font-size:3vw;
+
+}
+}
+/* md */
+@media (min-width: 992px) {
+  .row-content {
+    min-height: 10rem;
+  }
+  img {
+      width: 250px;
+  }
+  .mainText {
+    font-size:7vw
+}
+}
 
 @media screen and (max-width: 1200px){
   .carousel-caption{
     background-color:rgba(0,0,0,0.5);
-}
+}}
 
-}
+/* lg */
 
 @media only screen and (min-width: 1200px){
 .carousel .carousel-caption {
@@ -320,6 +321,9 @@ header {
   height: 400px;
   left: 30px; 
  }
+ img {
+  width: 300px;
+}
 }
 
  .carousel .carousel-item img {
@@ -343,5 +347,3 @@ header {
   bottom:0;
   z-index:100;
 }
-
-
